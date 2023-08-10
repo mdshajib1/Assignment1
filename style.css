@@ -1,0 +1,327 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Task1 */
+.task1-container {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+} 
+
+.single-btn-style {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* For griding the buttons */
+.btn-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    width: 300px;
+    padding: 30px;
+}
+
+/* Colors for button */
+
+.common-style {
+    border-color: white;
+    border-radius: 20px;
+    height: 45px;
+    width: 180px;
+    color: white;
+}
+
+.loginbtn {
+    background-image: linear-gradient(to left, #09312e, #103738, #1d4b53, #0f645d, #4c9092, #81c6d0);
+}
+
+.cartbtn {
+    background-image: linear-gradient(to left, #0b0938, #262060, #322983, #3f05ab, #3b37ba, #5491c6);
+}
+
+.downloadbtn {
+    background-image: linear-gradient(to left, #250a34, #37133d, #612367, #612a83, #9d4cab, #cd78d5);
+}
+
+.commentbtn {
+    background-image: linear-gradient(to left, #0b2708, #132f0f, #1e361c, #196912, #5da846, #8ef485);
+}
+
+/* Task 2 */
+.main-body {
+    background-color: rgb(220, 213, 213);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.task2-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-height: 1000px;
+    background-color: rgb(220, 213, 213);
+    margin: 0 auto;
+}
+.single-product {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.single-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+    background-color: white;
+}
+
+.single-design button {
+    height: 50px;
+}
+
+.task2-container img {
+    width: 100%;
+}
+
+.head-btn {
+    background-color: rgb(141,198,30);
+    color: white;
+    border-color: rgb(141,198,30);
+}
+
+.shoe-btn {
+    background-color: rgba(149,188,208,255);
+    color: white;
+    border-color: rgba(149,188,208,255);
+}
+
+.shirt-btn {
+    background-color: rgba(137,84,228,255);
+    color: white;
+    border-color: rgba(137,84,228,255);
+}
+
+/* Task 3 */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.divider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.left-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: gray;
+    padding: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.left-out {
+    padding-top: 30px;
+    background-image: linear-gradient(to bottom, #896c82, #9c6875, #bc6565, #a86c6e, #896e7d, #6d7491, #57739a, #3a567e);
+}
+
+.left-in {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.left-in input {
+    color: gray;
+}
+
+.right input {
+    color: gray;
+}
+
+.left-image {
+    width: 30%;
+    border-radius: 80%;
+}
+
+.to-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid blue;
+    padding: 10px;
+    gap: 5px;
+}
+
+.send-btn {
+    background-color: rgba(110,170,255,255);
+    color: white;
+    border: rgba(110,170,255,255);
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+}
+
+.login-btn {
+    background-color: rgba(181,97,97,255);
+    color: white;
+    border: rgba(181,97,97,255);
+    width: 100%;
+    height: 25px;
+}
+
+/* Task 4 */
+.August {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.calender, .August {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    row-gap: 3px;
+    column-gap: 3px;
+}
+
+.date {
+    line-height: 50px;
+    background-color: rgb(231, 225, 225);
+}
+
+.other-date {
+    line-height: 50px;
+    border: 1px solid rgb(231, 225, 225);
+}
+
+/* Task 5 */
+
+.outgray {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #637076, #78868d, #808f96, #85949c);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(241,194,50,255);
+    padding: 10px;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(241,194,50,255);
+    line-height: 50px;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.upper > div, .lower > div {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+/* Task 6 */
+
+.task6-design {
+    border: 10px solid #6c63ff;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.task6inner-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.html-image {
+    width: 60%;
+    margin-right: 0px;
+}
+
+.purchase-btn {
+    border-radius: 50px;
+    background-color: #6c63ff;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+
+.task6-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Task 7 */
+
+.task7-outerdesign {
+    background-color: #002147;
+    color: white;
+    height: 350px;
+}
+
+.footer-div {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
+}
